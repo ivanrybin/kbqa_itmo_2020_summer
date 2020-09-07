@@ -1,2 +1,5 @@
-# kbqa_summer
-KBQA summer results
+# KBQA summer results
+
+QA_dataset - вопросно-ответный датасет с ссылками на релевантные тексты из PARAGRAPHS_dataset
+PARAGRAPHS_dataset - датасет абзацев статей Википедия, относящихся к вопросам и ответам QA_dataset
+генерация_примеры - примеры генерации сложных вопросов из простых вопросов двух QA_dataset'ов
