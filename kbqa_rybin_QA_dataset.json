@@ -64295,7 +64295,7 @@
     {
         "uid": 1348,
         "question_text": "Как долго длилась Война роз?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q127751 wdt:P580 ?begin .\n wd:Q127751 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q127751 wdt:P580 ?begin .\n wd:Q127751 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "11713",
         "question_uris": [
             "http://www.wikidata.org/entity/Q127751"
@@ -64341,14 +64341,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long had the War of the roses lasted?"
     },
     {
         "uid": 1351,
         "question_text": "Как долго длилась эпидемия испанки?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q178275 wdt:P580 ?begin .\n wd:Q178275 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q178275 wdt:P580 ?begin .\n wd:Q178275 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "1065",
         "question_uris": [
             "http://www.wikidata.org/entity/Q178275"
@@ -64394,14 +64394,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Spanish flu epidemic last?"
     },
     {
         "uid": 1353,
         "question_text": "Как долго длилось первое российское кругосветное плавание под руководством Крузенштерна?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q4349237 wdt:P580 ?begin .\n wd:Q4349237 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q4349237 wdt:P580 ?begin .\n wd:Q4349237 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "1095",
         "question_uris": [
             "http://www.wikidata.org/entity/Q4349237"
@@ -64451,14 +64451,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did Krusenstern's first Russian circumnavigation of the globe last?"
     },
     {
         "uid": 1354,
         "question_text": "Как долго продолжалась оборона Бреста?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q694416 wdt:P580 ?begin .\n wd:Q694416 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q694416 wdt:P580 ?begin .\n wd:Q694416 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "3",
         "question_uris": [
             "http://www.wikidata.org/entity/Q694416"
@@ -64504,14 +64504,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the defense of Brest last?"
     },
     {
         "uid": 1358,
         "question_text": "Сколько дней длилась Вторая мировая война?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q362 wdt:P580 ?begin .\n wd:Q362 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q362 wdt:P580 ?begin .\n wd:Q362 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "2193",
         "question_uris": [
             "http://www.wikidata.org/entity/Q362"
@@ -64557,14 +64557,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the Second world war last?"
     },
     {
         "uid": 1359,
         "question_text": "Сколько дней длилось морское сражение за Гуадалканал?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q696438 wdt:P580 ?begin .\n wd:Q696438 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q696438 wdt:P580 ?begin .\n wd:Q696438 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "2",
         "question_uris": [
             "http://www.wikidata.org/entity/Q696438"
@@ -64610,14 +64610,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the naval battle for Guadalcanal last?"
     },
     {
         "uid": 1360,
         "question_text": "Сколько дней длился штурм Кенигсберга?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q671528 wdt:P580 ?begin .\n wd:Q671528 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q671528 wdt:P580 ?begin .\n wd:Q671528 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "3",
         "question_uris": [
             "http://www.wikidata.org/entity/Q671528"
@@ -64665,14 +64665,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the assault on Konigsberg last?"
     },
     {
         "uid": 1362,
         "question_text": "Сколько дней продолжалась Курская битва?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q130861 wdt:P580 ?begin .\n wd:Q130861 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q130861 wdt:P580 ?begin .\n wd:Q130861 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "49",
         "question_uris": [
             "http://www.wikidata.org/entity/Q130861"
@@ -64720,14 +64720,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the battle of Kursk last?"
     },
     {
         "uid": 1363,
         "question_text": "Сколько дней продолжалась осада Рязани?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q1981024 wdt:P580 ?begin .\n wd:Q1981024 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q1981024 wdt:P580 ?begin .\n wd:Q1981024 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "5",
         "question_uris": [
             "http://www.wikidata.org/entity/Q1981024"
@@ -64775,14 +64775,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the siege of Ryazan last?"
     },
     {
         "uid": 1364,
         "question_text": "Сколько дней длилось сталинградское сражение?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q38789 wdt:P580 ?begin .\n wd:Q38789 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q38789 wdt:P580 ?begin .\n wd:Q38789 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "163",
         "question_uris": [
             "http://www.wikidata.org/entity/Q38789"
@@ -64828,14 +64828,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the battle of Stalingrad last?"
     },
     {
         "uid": 1365,
         "question_text": "Сколько дней продолжался Великий чикагский пожар 1871 года?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q70520 wdt:P580 ?begin .\n wd:Q70520 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q70520 wdt:P580 ?begin .\n wd:Q70520 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "2",
         "question_uris": [
             "http://www.wikidata.org/entity/Q70520"
@@ -64881,14 +64881,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the Great Chicago fire of 1871 last?"
     },
     {
         "uid": 1366,
         "question_text": "Сколько дней продолжался Карибский кризис?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q128160 wdt:P580 ?begin .\n wd:Q128160 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q128160 wdt:P580 ?begin .\n wd:Q128160 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "14",
         "question_uris": [
             "http://www.wikidata.org/entity/Q128160"
@@ -64934,7 +64934,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the Caribbean crisis last?"
     },
@@ -64989,7 +64989,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the Livonian war last?"
     },
@@ -65042,7 +65042,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the First world war last?"
     },
@@ -65095,7 +65095,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the Trojan war last?"
     },
@@ -65148,7 +65148,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Bronze age last?"
     },
@@ -65201,7 +65201,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Vietnam war last?"
     },
@@ -65256,7 +65256,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the hundred Years ' war last?"
     },
@@ -65309,7 +65309,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the Hussite wars continue in the Czech Republic?"
     },
@@ -65366,7 +65366,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many months did the Great Patriotic war last?"
     },
@@ -65419,7 +65419,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many months did the longest chess match last?"
     },
@@ -65472,14 +65472,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many months did the fighting of the Russo-Japanese war last?"
     },
     {
         "uid": 1387,
         "question_text": "Как долго продолжалась Отечественная война 1812 года?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q179250 wdt:P580 ?begin .\n wd:Q179250 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q179250 wdt:P580 ?begin .\n wd:Q179250 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "173",
         "question_uris": [
             "http://www.wikidata.org/entity/Q179250"
@@ -65525,14 +65525,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Patriotic war of 1812 last?"
     },
     {
         "uid": 1388,
         "question_text": "Как долго продолжалась Северная война?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q151616 wdt:P580 ?begin .\n wd:Q151616 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q151616 wdt:P580 ?begin .\n wd:Q151616 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "7870",
         "question_uris": [
             "http://www.wikidata.org/entity/Q151616"
@@ -65578,14 +65578,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Northern war last?"
     },
     {
         "uid": 1389,
         "question_text": "Сколько дней длилась Великая Отечественная война?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q189266 wdt:P580 ?begin .\n wd:Q189266 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q189266 wdt:P580 ?begin .\n wd:Q189266 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "1415",
         "question_uris": [
             "http://www.wikidata.org/entity/Q189266"
@@ -65635,14 +65635,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the Great Patriotic war last?"
     },
     {
         "uid": 1392,
         "question_text": "Сколько дней длилось первое кругосветное путешествие?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q1225170 wdt:P580 ?begin .\n wd:Q1225170 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q1225170 wdt:P580 ?begin .\n wd:Q1225170 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "1125",
         "question_uris": [
             "http://www.wikidata.org/entity/Q1225170"
@@ -65688,14 +65688,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the first trip around the world last?"
     },
     {
         "uid": 1393,
         "question_text": "Сколько дней продолжалась битва за Сталинград?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q38789 wdt:P580 ?begin .\n wd:Q38789 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q38789 wdt:P580 ?begin .\n wd:Q38789 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "163",
         "question_uris": [
             "http://www.wikidata.org/entity/Q38789"
@@ -65741,14 +65741,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the battle of Stalingrad last?"
     },
     {
         "uid": 1394,
         "question_text": "Сколько дней продолжалась оборона Брестской крепости?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q611789 wdt:P580 ?begin .\n wd:Q611789 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q611789 wdt:P580 ?begin .\n wd:Q611789 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "7",
         "question_uris": [
             "http://www.wikidata.org/entity/Q611789"
@@ -65794,14 +65794,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the defense of the Brest fortress last?"
     },
     {
         "uid": 1396,
         "question_text": "Сколько дней продолжалось сражение на Курской дуге?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q130861 wdt:P580 ?begin .\n wd:Q130861 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q130861 wdt:P580 ?begin .\n wd:Q130861 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "49",
         "question_uris": [
             "http://www.wikidata.org/entity/Q130861"
@@ -65849,7 +65849,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the battle of the Kursk bulge last?"
     },
@@ -65906,7 +65906,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the great Patriotic war last?"
     },
@@ -65961,7 +65961,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the war in Afghanistan last?"
     },
@@ -66014,7 +66014,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the Second world war last?"
     },
@@ -66069,7 +66069,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the First Punic war last?"
     },
@@ -66122,7 +66122,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Middle ages last?"
     },
@@ -66177,7 +66177,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did Spartacus ' rebellion last?"
     },
@@ -66233,7 +66233,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Second Punic war last?"
     },
@@ -66286,7 +66286,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the middle Ages last?"
     },
@@ -66339,7 +66339,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How long did the Crusades last?"
     },
@@ -66392,7 +66392,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did Pugachev's rebellion last?"
     },
@@ -66445,7 +66445,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the first circumnavigation of the world last?"
     },
@@ -66498,7 +66498,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many years did the Santa Barbara series last?"
     },
@@ -66551,14 +66551,14 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many months did the siege of Leningrad last?"
     },
     {
         "uid": 1414,
         "question_text": "Сколько дней продолжалась оборона Севастополя?",
-        "query": "SELECT ?answer \nWHERE {\n wd:Q154860 wdt:P580 ?begin .\n wd:Q154860 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin + 0.99) AS ?answer).\n}",
+        "query": "SELECT ?answer \nWHERE {\n wd:Q154860 wdt:P580 ?begin .\n wd:Q154860 wdt:P582 ?end .\nBIND (xsd:integer(?end - ?begin) AS ?answer).\n}",
         "answer_text": "247",
         "question_uris": [
             "http://www.wikidata.org/entity/Q154860"
@@ -66604,7 +66604,7 @@
             ]
         },
         "tags": [
-            "1-hop"
+            "duration"
         ],
         "question_eng": "How many days did the defense of Sevastopol last?"
     },
